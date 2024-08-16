@@ -115,10 +115,27 @@ _G.packer_plugins = {
     path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    config = { "\27LJ\2\n/\0\0\1\0\1\0\2'\0\0\0L\0\2\0$C:/msys64/ucrt64/bin/python.exe¦\2\1\0\5\0\v\0\0166\0\0\0'\2\1\0B\0\2\0029\1\2\0005\2\4\0005\3\5\0=\3\6\2=\2\3\0019\1\a\0004\2\3\0005\3\b\0003\4\t\0=\4\n\3>\3\1\2=\2\3\1K\0\1\0\15pythonPath\0\1\0\5\ttype\vpython\fprogram\f${file}\15pythonPath\0\frequest\vlaunch\tname\16Launch file\19configurations\targs\1\3\0\0\a-m\20debugpy.adapter\1\0\3\fcommand$C:/msys64/ucrt64/bin/python.exe\ttype\15executable\targs\0\vpython\radapters\bdap\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    config = { "\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ndapui\frequire\0" },
+    loaded = true,
+    path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-nio"] = {
+    loaded = true,
+    path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-nio",
+    url = "https://github.com/nvim-neotest/nvim-nio"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -140,6 +157,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["telescope-ui-select.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-ui-select.nvim",
+    url = "https://github.com/nvim-telescope/telescope-ui-select.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Kevin\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -157,6 +179,14 @@ time([[Defining packer_plugins]], false)
 time([[Config for kanagawa.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\25colorscheme kanagawa\bcmd\bvim\0", "config", "kanagawa.nvim")
 time([[Config for kanagawa.nvim]], false)
+-- Config for: nvim-dap
+time([[Config for nvim-dap]], true)
+try_loadstring("\27LJ\2\n/\0\0\1\0\1\0\2'\0\0\0L\0\2\0$C:/msys64/ucrt64/bin/python.exe¦\2\1\0\5\0\v\0\0166\0\0\0'\2\1\0B\0\2\0029\1\2\0005\2\4\0005\3\5\0=\3\6\2=\2\3\0019\1\a\0004\2\3\0005\3\b\0003\4\t\0=\4\n\3>\3\1\2=\2\3\1K\0\1\0\15pythonPath\0\1\0\5\ttype\vpython\fprogram\f${file}\15pythonPath\0\frequest\vlaunch\tname\16Launch file\19configurations\targs\1\3\0\0\a-m\20debugpy.adapter\1\0\3\fcommand$C:/msys64/ucrt64/bin/python.exe\ttype\15executable\targs\0\vpython\radapters\bdap\frequire\0", "config", "nvim-dap")
+time([[Config for nvim-dap]], false)
+-- Config for: nvim-dap-ui
+time([[Config for nvim-dap-ui]], true)
+try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ndapui\frequire\0", "config", "nvim-dap-ui")
+time([[Config for nvim-dap-ui]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
